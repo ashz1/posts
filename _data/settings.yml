@@ -8,7 +8,7 @@ google-ID: ''
 
 menu:
 - {name: 'Welcome!',  url: 'welcome'}
-- {name: 'Learning Resources', url: 'resources'}
+- {name: 'Integrating Artificial Intelligence - AI Assistants', url: 'ai'}
 - {name: 'Sample Posts',       url: 'sample-posts'}
 - {name: 'Documentation',      url: 'documentation'}
 - {name: 'About',              url: 'about'}
