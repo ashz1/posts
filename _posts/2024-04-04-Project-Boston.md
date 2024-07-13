@@ -4,7 +4,7 @@ title: "Boston Neighborhood Analysis"
 author: "Aashay Zende"
 categories: projects
 tags: [Boston, Neighborhood Analysis, Real Estate, Data Analysis]
-image: img/portfolio/5.jpg
+image: arctic-2.jpg
 ---
 
 ## Boston Neighborhood Analysis
