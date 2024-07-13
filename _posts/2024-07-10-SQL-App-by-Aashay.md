@@ -4,7 +4,7 @@ title: "SQL CRUD App Demo"
 author: "Aashay Zende"
 categories: projects
 tags: [SQL, CRUD, Streamlit, Data Analysis]
-image: sql-demo.jpg
+image: city-1.jpg
 ---
 
 ## SQL Database Operations Demo
