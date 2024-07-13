@@ -4,7 +4,7 @@ title: "Data Engineering Project: Importing and Processing Data with AWS"
 author: "Aashay Zende"
 categories: projects
 tags: [Data Engineering, AWS, Streamlit, EC2, S3]
-image: img/portfolio/5.jpg
+image: city-2.jpg
 ---
 
 ## Data Engineering Project by Aashay
