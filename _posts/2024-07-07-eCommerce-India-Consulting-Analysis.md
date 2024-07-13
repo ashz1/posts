@@ -19,10 +19,9 @@ In this post, I present my comprehensive study on eCommerce trends in India.
 - **Challenges**: Despite growth, challenges such as product quality concerns, delivery logistics, and return processes remain critical areas for improvement.
 
 
-<div style="text-align: center;">
-    <iframe src="/posts/assets/pdf/eComm India.pdf" width="800" height="600" style="border: none;"></iframe>
+<div class="pdf-embed-container">
+    <iframe src="/posts/assets/pdf/eComm India.pdf#toolbar=0" width="800" height="600" style="border: none;"></iframe>
 </div>
-
 
 
 ---
