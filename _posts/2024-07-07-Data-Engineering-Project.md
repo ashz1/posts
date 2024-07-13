@@ -13,6 +13,8 @@ image: data-engineering.jpg
 
 Welcome to my Data Engineering project! This project demonstrates the steps taken to import data from Amazon S3, process it on an EC2 instance, and save the data in a GitHub repository using Streamlit.
 
+- [Live Demo of Data Engineering Project](https://sqlproject.streamlit.app/)
+
 ### Project Highlights
 
 1. **Uploading Data to Amazon S3**
@@ -68,8 +70,8 @@ Welcome to my Data Engineering project! This project demonstrates the steps take
 
 For a detailed walkthrough of the project steps and to view the code, please head to the Steps section in the sidebar.
 
-- [View the project on GitHub](#)
-- [Live Demo of Data Engineering Project](https://sqlproject.streamlit.app/)
+- [View the project on GitHub](https://github.com/ashz1/DataEngg)
+
 
 ### Conclusion
 
