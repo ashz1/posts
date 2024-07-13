@@ -52,7 +52,7 @@ Navigate through presentation slides directly on the website to explore the comp
 For a comprehensive understanding, view the full report embedded below:
 
 <div class="pdf-embed-container">
-    <iframe src="/assets/pdf/MISO.pdf#toolbar=0" width="800" height="600" style="border: none;"></iframe>
+    <iframe src="/posts/assets/pdf/MISO.pdf#toolbar=0" width="800" height="600" style="border: none;"></iframe>
 </div>
 
 ### Conclusion:
