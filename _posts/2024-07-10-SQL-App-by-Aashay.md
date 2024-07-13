@@ -55,7 +55,7 @@ The app, built using Python's Streamlit library, allows users to perform basic C
 
 The code for this app can be viewed on GitHub under the MIT license. Feel free to use it for your own projects, and please do not hesitate to drop me an email if you find any errors or have feedback. I’ll appreciate it.
 
-- [GitHub Repository](https://github.com/ashz1/SQLproject)
+- [GitHub Repository](https://github.com/ashz1/SQLproject/)
 
 
 ### Conclusion
