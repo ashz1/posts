@@ -55,13 +55,8 @@ The app, built using Python's Streamlit library, allows users to perform basic C
 
 The code for this app can be viewed on GitHub under the MIT license. Feel free to use it for your own projects, and please do not hesitate to drop me an email if you find any errors or have feedback. I’ll appreciate it.
 
-- [GitHub Repository](#)
+- [GitHub Repository](https://github.com/ashz1/SQLproject)
 
-### Live Demo
-
-You can interact with the app live by visiting the following link:
-
-- [Live Demo of SQL CRUD App](https://sqlproject.streamlit.app/)
 
 ### Conclusion
 
