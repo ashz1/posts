@@ -55,7 +55,7 @@ For a comprehensive understanding, view the full report embedded below:
     <iframe src="/assets/pdf/MISO.pdf#toolbar=0" width="800" height="600" style="border: none;"></iframe>
 </div>
 
-### Conclusion
+### Conclusion:
 
 The MISO Survey analysis provides valuable insights into the evolving IT service needs within academic institutions. By understanding these trends, we can better tailor IT services to meet the diverse requirements of students and faculty.
 
