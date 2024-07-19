@@ -7,8 +7,6 @@ tags: [Boston, Neighborhood Analysis, Real Estate, Data Analysis]
 image: 
 ---
 
-## Boston Neighborhood Analysis
-
 Embarking on a journey to unravel the evolving tapestry of Boston's neighborhoods, this project reveals the intricate story of property dynamics, safety, and community resilience, reflecting the collective aspirations and challenges of its inhabitants.
 
 [You can view a live demo of the project here.](https://ash247.streamlit.app/Project_Boston/).

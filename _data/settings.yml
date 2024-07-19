@@ -7,12 +7,12 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Welcome!',  url: 'welcome'}
-- {name: 'Integrating AI', url: 'ai'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
+- {name: 'SQL CRUD App Demo',  url: 'SQL-App-by-Aashay'}
+- {name: 'Integrating AI - Chatbot Assistants and AshGPT', url: 'ai'}
+- {name: 'Understanding the History of Databases',       url: 'History-of-Databases'}
+- {name: 'Data Engineering Project: Importing and Processing Data with AWS',      url: 'Data-Engineering-Project'}
 - {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+- {name: 'Boston Neighborhood Analysis',            url: 'Project-Boston'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
