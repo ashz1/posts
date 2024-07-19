@@ -7,7 +7,6 @@ tags: [Data Engineering, AWS, Streamlit, EC2, S3]
 image: dataeng.jpg
 ---
 
-## Data Engineering Project by Aashay
 
 ### Project Summary
 
