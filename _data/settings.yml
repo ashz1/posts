@@ -12,6 +12,7 @@ menu:
 - {name: 'History of Databases',       url: 'History-of-Databases'}
 - {name: 'Data Engineering Project',      url: 'Data-Engineering-Project'}
 - {name: 'Boston Analysis',            url: 'Project-Boston'}
+- {name: 'Resume',            url: 'Resume'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
