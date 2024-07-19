@@ -52,7 +52,7 @@ This section presents community feedback, revealing residents' perspectives on B
 For a comprehensive understanding, view the full report embedded below:
 
 <div class="pdf-embed-container">
-    <iframe src="/assets/pdf/Project.pdf#toolbar=0" width="800" height="600" style="border: none;"></iframe>
+    <iframe src="/assets/pdf/Project.pdf" width="800" height="600" style="border: none;"></iframe>
 </div>
 
 ---
