@@ -19,7 +19,7 @@ SQL is a powerful tool for managing and manipulating relational databases. It ca
 
 The Data Definition Language (DDL) is used to define and modify the structure of a database. This includes creating, altering, and dropping tables, views, schemas, and other database objects. Here’s an example of creating a table using DDL:
 
-### 
+
 ```CREATE TABLE CUSTOMER (
     CustomerID INTEGER,
     FirstName CHAR (15),
@@ -30,19 +30,23 @@ The Data Definition Language (DDL) is used to define and modify the structure of
     Country CHAR (25),
     Phone CHAR (13)
 );```
-Data Manipulation Language (DML)
+
+
+#### Data Manipulation Language (DML)
+
 The Data Manipulation Language (DML) operates on the data within the database. It includes commands for inserting, updating, deleting, and retrieving data. Here’s an example of a simple SELECT statement using DML:
 
 SELECT * FROM PRODUCT;
 
-### Data Control Language (DCL)
+#### Data Control Language (DCL)
+
 The Data Control Language (DCL) is responsible for maintaining the security and integrity of the database. It includes commands for granting and revoking user permissions and controlling transactions to ensure data consistency.
 
-### Creating and Managing Database Structures
+#### Creating and Managing Database Structures
 Creating Tables
 A table is a fundamental database object that stores data in rows and columns. Here’s an example of creating a CUSTOMER table:
 
-```
+
 CREATE TABLE CUSTOMER (
     CustomerID INTEGER PRIMARY KEY,
     FirstName CHAR (15),
@@ -52,8 +56,9 @@ CREATE TABLE CUSTOMER (
     State CHAR (2),
     Zipcode CHAR (10),
     Phone CHAR (13)
-);```
-Creating Views
+);
+
+### Creating Views
 Views are virtual tables that present data from one or more tables. They are useful for simplifying complex queries and controlling data access. Here’s an example of creating a view:
 
 sql
