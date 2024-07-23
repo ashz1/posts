@@ -57,8 +57,56 @@ The most widely used open-source DBMS, MySQL offers multiple storage engines wit
 
 An open-source DBMS known for its robustness and support for large-scale applications, PostgreSQL is supported by an active user community.
 
+---
+
+### SQL and the Relational Model
+
+The relational database model, initially proposed by Dr. Edgar F. Codd, became the foundation for SQL and relational databases. While SQL was developed to work with relational databases, it's not entirely consistent with the relational model, but it provides a practical approach to managing data.
+
+#### Sets, Relations, Multisets, and Tables
+
+The relational model is based on set theory, where a set is a collection of unique objects. In SQL, the equivalent of a relation is a table, but tables can have duplicate rows, making them more akin to multisets. Here are the key characteristics of an SQL relation:
+
+- Every cell contains a single value.
+- All entries in any column must be of the same kind.
+- Each column has a unique name.
+- The order of columns and rows doesn't matter.
+- No two rows may be identical.
+
+#### Functional Dependencies
+
+Functional dependencies are relationships between attributes. For example, if you know a customer's Zipcode, you can determine their State because each Zipcode resides in one state. This dependency is denoted as:
+
+Zipcode ➪ State
+
+Functional dependencies help in designing databases to ensure data integrity and reduce redundancy.
+
+#### Keys
+
+A key is an attribute or a group of attributes that uniquely identifies a tuple in a relation. For example, a ResearcherID can be a key if each researcher is assigned to only one project. If researchers can work on multiple projects, a composite key of ResearcherID and Project would be used.
+
+#### Views
+
+Views are virtual tables that don't physically exist until queried. They simplify complex queries and present data in a user-friendly format. However, views have limitations, such as not always being updatable if they involve computed columns.
+
+#### Users and Privileges
+
+Users are an essential part of any database system. To ensure data security, robust authentication and authorization mechanisms are implemented. Users are assigned specific privileges based on their roles, ensuring they can access only the data they need.
+
+#### Schemas and Catalogs
+
+Schemas organize tables and other database objects, preventing naming conflicts. A catalog can contain multiple schemas, providing an additional level of organization for large databases.
+
+#### Connections, Sessions, and Transactions
+
+To operate on a database, a user must establish a connection between the client and the server. A session encompasses the sequence of SQL statements executed using a single connection. Transactions ensure data integrity by making sure that all operations within a transaction are completed successfully or none are applied.
+
+#### Routines and Paths
+
+Routines are procedures, functions, or methods that can be invoked by SQL or host language programs. Paths define the search order for locating routines, ensuring the correct procedures are executed.
+
 ### Conclusion
 
-SQL has become the backbone of modern data management due to its standardization and powerful data manipulation capabilities. Understanding the history and evolution of SQL helps appreciate its significance in the world of relational databases.
+SQL has revolutionized data management by providing a standardized way to interact with relational databases. Understanding the intricacies of SQL and the relational model is crucial for effectively managing and manipulating data. The evolution of SQL and its implementations highlights its significance and widespread adoption in the world of data management.
 
 ---
