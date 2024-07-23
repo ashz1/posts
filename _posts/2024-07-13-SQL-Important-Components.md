@@ -4,7 +4,7 @@ title: "Exploring SQL Components and Important Details"
 author: "Aashay Zende"
 categories: blog
 tags: [SQL, Databases, Data Management, Components, Details]
-image: sql_components.jpg
+image: sql.jpg
 ---
 
 ## Exploring SQL Components and Nitty-Gritty Details
@@ -20,7 +20,7 @@ SQL is a powerful tool for managing and manipulating relational databases. It ca
 The Data Definition Language (DDL) is used to define and modify the structure of a database. This includes creating, altering, and dropping tables, views, schemas, and other database objects. Here’s an example of creating a table using DDL:
 
 
-CREATE TABLE CUSTOMER (
+    CREATE TABLE CUSTOMER (
     CustomerID INTEGER,
     FirstName CHAR (15),
     LastName CHAR (20),
@@ -57,26 +57,26 @@ A table is a fundamental database object that stores data in rows and columns. H
     City CHAR (20),
     State CHAR (2),
     Zipcode CHAR (10),
-    Phone CHAR (13);
+    Phone CHAR (13) );
 '''
 
 #### Creating Views
 Views are virtual tables that present data from one or more tables. They are useful for simplifying complex queries and controlling data access. Here’s an example of creating a view:
 
 ```
-    CREATE VIEW EMP_CONTACT AS
-    SELECT FirstName, LastName, Street, City, State, Zip, Phone, Email
-    FROM EMPLOYEE;
+CREATE VIEW EMP_CONTACT AS
+SELECT FirstName, LastName, Street, City, State, Zip, Phone, Email
+FROM EMPLOYEE;
 ```
 
 #### Using Schemas and Domains
 Schemas help organize tables and other database objects, while domains restrict the type of data that can be entered into specified fields. Here’s an example of creating a schema and a domain:
 
 ```
-    CREATE SCHEMA RETAIL1;
+CREATE SCHEMA RETAIL1;
 
-    CREATE DOMAIN Color CHAR (15)
-    CHECK (VALUE IS 'Red' OR 'White' OR 'Blue');
+CREATE DOMAIN Color CHAR (15)
+CHECK (VALUE IS 'Red' OR 'White' OR 'Blue');
 ```
 ### Operating on Data with DML
 
@@ -84,17 +84,17 @@ Schemas help organize tables and other database objects, while domains restrict 
 Data can be added to tables using the INSERT statement. Here’s an example:
 
 ```
-  INSERT INTO CUSTOMER (CustomerID, FirstName, LastName, Street, City, State, Zipcode, Phone)
-  VALUES (1, 'Abe', 'Lincoln', '1600 Pennsylvania Avenue NW', 'Washington', 'DC', '20500', '202-555-1414');
+INSERT INTO CUSTOMER (CustomerID, FirstName, LastName, Street, City, State, Zipcode, Phone)
+VALUES (1, 'Abe', 'Lincoln', '1600 Pennsylvania Avenue NW', 'Washington', 'DC', '20500', '202-555-1414');
 ```
 
 #### Updating Data
 The UPDATE statement modifies existing data in a table. Here’s an example:
 
 ```
-  UPDATE PRODUCT
-  SET Cost = 22.00
-  WHERE Name = 'Bike helmet';
+UPDATE PRODUCT
+SET Cost = 22.00
+WHERE Name = 'Bike helmet';
 ```
   
   
@@ -102,8 +102,8 @@ The UPDATE statement modifies existing data in a table. Here’s an example:
 The DELETE statement removes data from a table. Here’s an example:
 
 ```
-  DELETE FROM TRANSACTION
-  WHERE TransDate < '2019-01-01';
+DELETE FROM TRANSACTION
+WHERE TransDate < '2019-01-01';
 ```
 ### Maintaining Security with DCL
 
