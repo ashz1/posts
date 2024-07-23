@@ -111,9 +111,9 @@ The DELETE statement removes data from a table. Here’s an example:
 The GRANT statement assigns permissions to users, while the REVOKE statement removes them. Here’s an example of each:
 
 ```
- GRANT SELECT ON PRICELIST TO PUBLIC;
+GRANT SELECT ON PRICELIST TO PUBLIC;
 
- REVOKE SELECT ON PRICELIST FROM PUBLIC;
+REVOKE SELECT ON PRICELIST FROM PUBLIC;
 ```
 ### Drilling Down to the Important SQL Stuff:
 
