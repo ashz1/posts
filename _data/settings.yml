@@ -7,7 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: [Home](https://ashz1.github.io/)}
+- {name: 'Home'(https://ashz1.github.io/)}
 - {name: 'SQL CRUD App Demo',  url: 'SQL-App-by-Aashay'}
 - {name: 'AshGPT', url: 'ai'}
 - {name: 'Data Engineering Project',      url: 'Data-Engineering-Project'}
