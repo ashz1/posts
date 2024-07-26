@@ -7,14 +7,14 @@ disqus:
 google-ID: ''
 
 menu:
+- {name: 'Home',  url: 'https://ashz1.github.io/'}
 - {name: 'SQL CRUD App Demo',  url: 'SQL-App-by-Aashay'}
 - {name: 'AshGPT', url: 'ai'}
-- {name: 'History of Databases',       url: 'History-of-Databases'}
 - {name: 'Data Engineering Project',      url: 'Data-Engineering-Project'}
 - {name: 'Boston Analysis',            url: 'Project-Boston'}
 - {name: 'Resume',            url: 'Resume'}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+# Available social icons are powered by Font Awesome
 social:
 - {icon: 'envelope', link:   'zende.a@northeastern.edu'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
