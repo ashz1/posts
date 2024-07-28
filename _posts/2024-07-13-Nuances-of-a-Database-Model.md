@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Nuances of a Database Model"
 author: "Aashay Zende"
@@ -40,7 +41,7 @@ The relational model is a logical representation of the data that defines how da
   
 #### Example of an Entity-Relationship Diagram (ERD)
 
-![ERD Example](erd_example.jpg)
+![ERD Example](/assets/img/erd_example.jpg)
 
 ### Knowing the Dangers of Anomalies
 
@@ -60,7 +61,7 @@ Normalization is the process of organizing data to reduce redundancy and improve
 
 #### Example of Normalization Process
 
-![Normalization Process](normalization_process.jpg)
+![Normalization Process](/assets/img/normalization_process.jpg)
 
 ### Denormalizing with Care
 
