@@ -41,7 +41,8 @@ The relational model is a logical representation of the data that defines how da
   
 #### Example of an Entity-Relationship Diagram (ERD)
 
-![ERD Example](/assets/img/erd_example.jpg)
+<img src="/assets/img/erd_example.jpg" alt="ERD Example">
+<img src="/assets/img/normalization_process.jpg" alt="Normalization Process">
 
 ### Knowing the Dangers of Anomalies
 
