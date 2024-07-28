@@ -4,7 +4,7 @@ title: "Nuances of a Database Model"
 author: "Aashay Zende"
 categories: blog
 tags: [Database, Data Modeling, Design, Implementation, Testing, Maintenance]
-image: db_model.jpg
+image: datamodel.jpeg
 ---
 
 ## Building a Database Model
