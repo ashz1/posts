@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "System Development Overview"
+title: "System Development Life Cycle"
 author: "Aashay Zende"
 categories: blog
 tags: [System Development, Software Engineering, Development Lifecycle, Agile, Waterfall]
