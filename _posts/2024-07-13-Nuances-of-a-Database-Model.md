@@ -38,11 +38,6 @@ The relational model is a logical representation of the data that defines how da
 - **Attribute Identification**: Determine the attributes for each entity.
 - **Relationship Identification**: Define the relationships between entities.
 - **Normalization**: Ensure the data model is normalized to eliminate redundancy and improve data integrity.
-  
-#### Example of an Entity-Relationship Diagram (ERD)
-
-<img src="/assets/img/erd_example.jpg" alt="ERD Example">
-<img src="/assets/img/normalization_process.jpg" alt="Normalization Process">
 
 ### Knowing the Dangers of Anomalies
 
@@ -59,10 +54,6 @@ Normalization is the process of organizing data to reduce redundancy and improve
 - **First Normal Form (1NF)**: Eliminate repeating groups by ensuring that each column contains atomic values.
 - **Second Normal Form (2NF)**: Remove partial dependencies by ensuring that all non-key attributes are fully dependent on the primary key.
 - **Third Normal Form (3NF)**: Eliminate transitive dependencies by ensuring that non-key attributes do not depend on other non-key attributes.
-
-#### Example of Normalization Process
-
-![Normalization Process](/assets/img/normalization_process.jpg)
 
 ### Denormalizing with Care
 
