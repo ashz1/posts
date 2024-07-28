@@ -4,7 +4,7 @@ title: "Getting to Know SQL"
 author: "Aashay Zende"
 categories: blog
 tags: [SQL, Databases, Data Management, History]
-image: sql.jpg
+image: db.jpg
 ---
 
 ## Getting to Know SQL
